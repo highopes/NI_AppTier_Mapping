@@ -1,0 +1,175 @@
+{
+    "nodeName": null,
+    "description": "",
+    "statName": "pktdrop",
+    "entries": [
+        {
+            "flowId": "172.16.1.63:0",
+            "srcIp": "172.16.1.63",
+            "dstIp": "172.16.2.222",
+            "srcPort": "0",
+            "dstPort": "0",
+            "protocol": "1",
+            "protocolName": "ICMP",
+            "ingressVrf": "hangwe-outside-vrf",
+            "egressVrf": "",
+            "flowType": "IPv4",
+            "ingressTenant": "hangwe-tn",
+            "egressTenant": "",
+            "ingressVlan": "0",
+            "egressVlan": "0",
+            "ingressVni": "0",
+            "egressVni": "0",
+            "ingressLogicalEncap": "",
+            "egressLogicalEncap": "",
+            "stats": [
+                {
+                    "dropPktCount": 3481,
+                    "srcEpg": "hangwe-app-epg",
+                    "dstEpg": "",
+                    "ts": "2021-01-13T08:44:58.774Z",
+                    "originTs": "2021-01-13T08:18:12.748Z",
+                    "terminalTs": "2021-01-13T09:42:58.792Z",
+                    "flowRecordCount": 58
+                }
+            ],
+            "srcEpg": "hangwe-app-epg",
+            "dstEpg": ""
+        },
+        {
+            "flowId": "172.16.1.54:0",
+            "srcIp": "172.16.1.54",
+            "dstIp": "172.16.1.52",
+            "srcPort": "0",
+            "dstPort": "0",
+            "protocol": "1",
+            "protocolName": "ICMP",
+            "ingressVrf": "hangwe-outside-vrf",
+            "egressVrf": "hangwe-outside-vrf",
+            "flowType": "IPv4",
+            "ingressTenant": "hangwe-tn",
+            "egressTenant": "hangwe-tn",
+            "ingressVlan": "0",
+            "egressVlan": "0",
+            "ingressVni": "0",
+            "egressVni": "0",
+            "ingressLogicalEncap": "",
+            "egressLogicalEncap": "",
+            "stats": [
+                {
+                    "dropPktCount": 3480,
+                    "srcEpg": "hangwe-web-epg",
+                    "dstEpg": "hangwe-DB-epg",
+                    "ts": "2021-01-13T08:44:58.774Z",
+                    "originTs": "2021-01-13T08:20:36.760Z",
+                    "terminalTs": "2021-01-13T09:42:58.792Z",
+                    "flowRecordCount": 58
+                }
+            ],
+            "srcEpg": "hangwe-web-epg",
+            "dstEpg": "hangwe-DB-epg"
+        },
+        {
+            "flowId": "10.75.53.2:50469",
+            "srcIp": "10.75.53.2",
+            "dstIp": "172.17.0.208",
+            "srcPort": "50469",
+            "dstPort": "445",
+            "protocol": "6",
+            "protocolName": "TCP",
+            "ingressVrf": "default",
+            "egressVrf": "",
+            "flowType": "IPv4",
+            "ingressTenant": "common",
+            "egressTenant": "",
+            "ingressVlan": "0",
+            "egressVlan": "0",
+            "ingressVni": "0",
+            "egressVni": "0",
+            "ingressLogicalEncap": "",
+            "egressLogicalEncap": "",
+            "stats": [
+                {
+                    "dropPktCount": 3,
+                    "srcEpg": "",
+                    "dstEpg": "",
+                    "ts": "2021-01-13T09:19:00.770Z",
+                    "originTs": "2021-01-13T09:19:00.770Z",
+                    "terminalTs": "2021-01-13T09:19:09.772Z",
+                    "flowRecordCount": 1
+                }
+            ],
+            "srcEpg": "",
+            "dstEpg": ""
+        },
+        {
+            "flowId": "10.75.53.2:53937",
+            "srcIp": "10.75.53.2",
+            "dstIp": "172.17.0.208",
+            "srcPort": "53937",
+            "dstPort": "445",
+            "protocol": "6",
+            "protocolName": "TCP",
+            "ingressVrf": "default",
+            "egressVrf": "",
+            "flowType": "IPv4",
+            "ingressTenant": "common",
+            "egressTenant": "",
+            "ingressVlan": "0",
+            "egressVlan": "0",
+            "ingressVni": "0",
+            "egressVni": "0",
+            "ingressLogicalEncap": "",
+            "egressLogicalEncap": "",
+            "stats": [
+                {
+                    "dropPktCount": 3,
+                    "srcEpg": "",
+                    "dstEpg": "",
+                    "ts": "2021-01-13T08:49:11.782Z",
+                    "originTs": "2021-01-13T08:49:11.782Z",
+                    "terminalTs": "2021-01-13T08:49:20.777Z",
+                    "flowRecordCount": 1
+                }
+            ],
+            "srcEpg": "",
+            "dstEpg": ""
+        },
+        {
+            "flowId": "10.75.53.2:56914",
+            "srcIp": "10.75.53.2",
+            "dstIp": "172.17.0.208",
+            "srcPort": "56914",
+            "dstPort": "445",
+            "protocol": "6",
+            "protocolName": "TCP",
+            "ingressVrf": "default",
+            "egressVrf": "",
+            "flowType": "IPv4",
+            "ingressTenant": "common",
+            "egressTenant": "",
+            "ingressVlan": "0",
+            "egressVlan": "0",
+            "ingressVni": "0",
+            "egressVni": "0",
+            "ingressLogicalEncap": "",
+            "egressLogicalEncap": "",
+            "stats": [
+                {
+                    "dropPktCount": 3,
+                    "srcEpg": "",
+                    "dstEpg": "",
+                    "ts": "2021-01-13T09:33:54.775Z",
+                    "originTs": "2021-01-13T09:33:54.775Z",
+                    "terminalTs": "2021-01-13T09:34:03.768Z",
+                    "flowRecordCount": 1
+                }
+            ],
+            "srcEpg": "",
+            "dstEpg": ""
+        }
+    ],
+    "totalResultsCount": 37,
+    "totalItemsCount": 37,
+    "offset": 0
+}

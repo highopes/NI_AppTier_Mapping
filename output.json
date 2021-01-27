@@ -1,0 +1,119 @@
+{
+    "1": {
+        "Source IP": "172.16.1.63",
+        "Destination IP": "172.16.2.222",
+        "Source Port": "0",
+        "Destination Port": "0",
+        "Protocol": "ICMP",
+        "Source App/Tier": [
+            [
+                "courseback",
+                "coursefund"
+            ]
+        ],
+        "Destination App/Tier": [
+            [
+                "courseback",
+                "Internal_DNS"
+            ]
+        ],
+        "Anomalies": "drop 3481 packet(s) in 58 flow record(s) during Last 1 Hour",
+        "Terminal Time": "2021-01-13T09:42:58.792Z"
+    },
+    "2": {
+        "Source IP": "172.16.1.54",
+        "Destination IP": "172.16.1.52",
+        "Source Port": "0",
+        "Destination Port": "0",
+        "Protocol": "ICMP",
+        "Source App/Tier": [
+            [
+                "courseback",
+                "coursefront"
+            ],
+            [
+                "Vinyl-Fanatics",
+                "FrontEnd"
+            ],
+            [
+                "Vinyl-Fanatics",
+                "Inventory"
+            ],
+            [
+                "Vinyl-Fanatics",
+                "OrderProcessing"
+            ]
+        ],
+        "Destination App/Tier": [
+            [
+                "courseback",
+                "XIAOZEDB-MySQL-172.16.1.52-5.7.28"
+            ]
+        ],
+        "Anomalies": "drop 3480 packet(s) in 58 flow record(s) during Last 1 Hour",
+        "Terminal Time": "2021-01-13T09:42:58.792Z"
+    },
+    "3": {
+        "Source IP": "10.75.53.2",
+        "Destination IP": "172.17.0.208",
+        "Source Port": "50469",
+        "Destination Port": "445",
+        "Protocol": "TCP",
+        "Source App/Tier": [
+            [
+                "SystemEventCollector",
+                "CollectProxy"
+            ]
+        ],
+        "Destination App/Tier": [
+            [
+                "SystemEventCollector",
+                "WindowsEventCollector"
+            ]
+        ],
+        "Anomalies": "drop 3 packet(s) in 1 flow record(s) during Last 1 Hour",
+        "Terminal Time": "2021-01-13T09:19:09.772Z"
+    },
+    "4": {
+        "Source IP": "10.75.53.2",
+        "Destination IP": "172.17.0.208",
+        "Source Port": "53937",
+        "Destination Port": "445",
+        "Protocol": "TCP",
+        "Source App/Tier": [
+            [
+                "SystemEventCollector",
+                "CollectProxy"
+            ]
+        ],
+        "Destination App/Tier": [
+            [
+                "SystemEventCollector",
+                "WindowsEventCollector"
+            ]
+        ],
+        "Anomalies": "drop 3 packet(s) in 1 flow record(s) during Last 1 Hour",
+        "Terminal Time": "2021-01-13T08:49:20.777Z"
+    },
+    "5": {
+        "Source IP": "10.75.53.2",
+        "Destination IP": "172.17.0.208",
+        "Source Port": "56914",
+        "Destination Port": "445",
+        "Protocol": "TCP",
+        "Source App/Tier": [
+            [
+                "SystemEventCollector",
+                "CollectProxy"
+            ]
+        ],
+        "Destination App/Tier": [
+            [
+                "SystemEventCollector",
+                "WindowsEventCollector"
+            ]
+        ],
+        "Anomalies": "drop 3 packet(s) in 1 flow record(s) during Last 1 Hour",
+        "Terminal Time": "2021-01-13T09:34:03.768Z"
+    }
+}

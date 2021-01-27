@@ -1,0 +1,35 @@
+{
+  "courseback": {
+    "coursefront": [
+      "172.16.1.54"
+    ],
+    "coursefund": [
+      "172.16.1.63"
+    ],
+    "XIAOZEDB-MySQL-172.16.1.52-5.7.28": [
+      "172.16.1.52"
+    ],
+    "Internal_DNS": [
+      "172.16.2.222"
+    ]
+  },
+  "Vinyl-Fanatics": {
+    "FrontEnd": [
+      "172.16.1.54"
+    ],
+    "Inventory": [
+      "172.16.1.54"
+    ],
+    "OrderProcessing": [
+      "172.16.1.54"
+    ]
+  },
+  "SystemEventCollector": {
+    "CollectProxy": [
+      "10.75.53.2"
+    ],
+    "WindowsEventCollector": [
+      "172.17.0.208"
+    ]
+  }
+}
